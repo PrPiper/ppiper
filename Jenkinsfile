@@ -6,3 +6,4 @@ node(){
 		
 		integrationArtifactDownload script: this
 	}
+}
