@@ -1,0 +1,11 @@
+general:
+  buildTool: 'npm'
+  gitSshKeyCredentialsId: 'credentials-id-in-jenkins'
+  cred
+  
+steps:
+  integrationArtifactDownload:
+    cpiApiServiceKeyCredentialsId: 'MY_API_SERVICE_KEY'
+    integrationFlowId: 'PrPiper-flow'
+    integrationFlowVersion: '1'
+    downloadPath: https://github.com/PrPiper/ppiper/blob/main/README.md
